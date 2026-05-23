@@ -23,7 +23,7 @@ header, main, footer {
     margin: 0 auto;
 }
 
-h1, h2 {
+h1 {
     font-family: var(--heading-font);
     color: var(--primary-color);
 }
@@ -39,6 +39,15 @@ nav, p, section, article {
 
 .hero {
     position: relative;
+}
+
+.hero article {
+    position: absolute;
+    bottom: 20px;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    padding: 16px;
 }
 
 .hero img {
@@ -61,4 +70,14 @@ h1 {
 .hero article img {
     float: right;
     width: 125px;
+}
+
+h2 {
+    font-family: var(--heading-font);
+    color: var(--secondary-color);  
+}
+
+footer {
+    background-color: var(--accent2-color);
+    padding: 16px;
 }

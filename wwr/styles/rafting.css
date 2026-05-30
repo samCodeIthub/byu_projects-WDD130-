@@ -23,7 +23,6 @@ main,
 footer {
     width: 840px;
     margin: 0 auto;
-    border: 1px solid red;
 }
 
 header {
@@ -150,4 +149,3 @@ footer {
     grid-template-columns: 1fr 1fr;
     gap: 10px;
 }
-

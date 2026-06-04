@@ -1,8 +1,8 @@
 :root {
     --primary-color: green;
-    --secondary-color: #f4a261;
+    --secondary-color: #b85e1a;
     --accent1-color: blue;
-    --accent2-color: gold;
+    --accent2-color: #b8860b;
     --heading-font: "Times New Roman", "Georgia", serif;
     --body-font: Arial, helvetica, sans-serif;
 }
@@ -26,9 +26,9 @@ footer {
 }
 
 header {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+    display: grid;
+    grid-template-columns: auto 1fr;
+    align-items: center;
 }
 
 h1 {
@@ -142,6 +142,10 @@ h2 {
 footer {
     background-color: var(--accent2-color);
     padding: 10px;
+}
+
+footer p{
+    color: #eee;
 }
 
 .footer_layout {

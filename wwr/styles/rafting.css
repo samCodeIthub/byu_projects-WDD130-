@@ -1,5 +1,4 @@
 :root {
-    --primary-color: green;
     --secondary-color: #b85e1a;
     --accent1-color: blue;
     --accent2-color: #b8860b;
@@ -33,7 +32,6 @@ header {
 
 h1 {
     font-family: var(--heading-font);
-    color: var(--primary-color);
     position: absolute;
     top: 20px;
     width: 100%;
@@ -143,7 +141,7 @@ footer {
 }
 
 footer p{
-    color: #eee;
+    color: #fff;
 }
 
 .footer_layout {

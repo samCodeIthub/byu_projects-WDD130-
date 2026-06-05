@@ -33,6 +33,7 @@ header {
 
 h1 {
     font-family: var(--heading-font);
+    color: var(--primary-color);
     position: absolute;
     top: 20px;
     width: 100%;

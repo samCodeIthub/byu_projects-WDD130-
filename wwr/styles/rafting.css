@@ -149,3 +149,70 @@ footer p{
     grid-template-columns: 1fr 1fr;
     gap: 10px;
 }
+
+/* section{
+    margin: 0 auto;
+} */
+
+h2,p{
+    text-align: center;
+    margin: 2px auto;
+}
+
+.employee{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+
+}
+
+.employee .employeeInfo{
+    width: 600px;
+}
+
+
+.employeeInfo form ul li {
+    margin-bottom: 10px;
+    list-style: none;
+}
+
+.employeeInfo form ul li input[type="text"],
+.employeeInfo form ul li input[type="email"] {
+    width: 300px;
+    height: 35px;
+    border-radius: 4px;
+}
+
+.employeeInfo form ul .purpose {
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+.employeeInfo form ul .purpose div {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.employeeInfo form ul .purpose div div {
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+}
+
+button{
+    width: 350px;
+    height: 30px;
+}
+
+section img{
+    width: 200px;
+    height: 200px;
+}
+
+section .invitation{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 100px;
+}

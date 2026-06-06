@@ -1,7 +1,7 @@
 :root {
     --secondary-color: #b85e1a;
     --accent1-color: blue;
-    --accent2-color: #b8860b;
+    --accent2-color: #7a5a00;
     --heading-font: "Times New Roman", "Georgia", serif;
     --body-font: Arial, helvetica, sans-serif;
 }
@@ -148,24 +148,21 @@ footer p{
     gap: 10px;
 }
 
-h1{
 
-}
 
 h2,p{
     text-align: center;
     margin: 2px auto;
 }
 
-.employee{
+.employee {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
     gap: 10px;
-
 }
 
 .employee .employeeInfo{
-    width: 600px;
+    width: 100%;
 }
 
 
@@ -209,8 +206,8 @@ section img{
     height: 200px;
 }
 
-section .invitation{
+section .invitation {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    gap: 100px;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
 }

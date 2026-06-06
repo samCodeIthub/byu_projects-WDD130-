@@ -32,15 +32,13 @@ header {
 
 h1 {
     font-family: var(--heading-font);
-    position: absolute;
-    top: 20px;
-    width: 100%;
-    padding: 16px;
+    color: var(--secondary-color);
     text-align: center;
-    opacity: 0.7;
-    background-color: var(--accent1-color);
-    color: #fff;
+    font-size: 30px;
+    margin: 16px;
+    padding: 8px;
 }
+
 nav,
 p,
 section,
@@ -150,9 +148,9 @@ footer p{
     gap: 10px;
 }
 
-/* section{
-    margin: 0 auto;
-} */
+h1{
+
+}
 
 h2,p{
     text-align: center;

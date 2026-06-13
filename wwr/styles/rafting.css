@@ -20,7 +20,7 @@ body {
 header,
 main,
 footer {
-    width: 840px;
+    width: 100%;
     margin: 0 auto;
 }
 
@@ -47,11 +47,17 @@ article {
     padding: 8px;
 }
 
+header{
+    display: flex;
+    justify-content: space-between;
+}
+
 nav ul {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     list-style: none;
+    width: 600px;
 }
 
 nav ul li {
@@ -83,9 +89,10 @@ section h2 {
 }
 
 .adventure_layout {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-    gap: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 100px;
 
 }
 
@@ -134,6 +141,7 @@ h2 {
 }
 
 footer {
+    width: 100%;
     background-color: var(--accent2-color);
     padding: 10px;
 }
@@ -210,4 +218,157 @@ section .invitation {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 20px;
+}
+
+.homeBottom{
+    position: relative;
+    width: 100%;
+    height: 500px;
+    background-color:#d8c9b8 ;
+}
+
+.homeBottom img{
+    margin-top: 30px;
+    margin-left: 100px;
+    width: 800px;
+    height: 400px;
+    display: block;
+}
+
+
+.homeBottom div{
+    position: absolute;
+    top: 45%;
+    right: 5%;
+    transform: translateY(-50%);
+    /* background: rgba(80, 80, 80, 0.7); */
+    background: rgba(7, 1, 1, 0.822);
+    color: white;
+    padding: 2rem;
+    max-width: 500px;
+    text-align: center;
+    
+}
+
+.homeBottom a button{
+    width: 80px;
+    border: none;
+    background-color: #d8c9b8;
+    border-radius: 20px;
+}
+
+.tripSecondOne{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: 550px;
+}
+
+.tripSecondOne img{
+    width: 90%;
+    height: 540px;
+    margin-left: 70px;
+}
+
+.tripSecondOne h2{
+    font-size: 30px;
+}
+
+.tripSecondTwo{
+    width: 98%;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.tripSecondTwo h3{
+    font-size: 30px;
+    color: black;
+}
+
+.offers{
+    width: 100%;
+    height: 500px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+    
+    
+}
+
+.offers a{
+    text-decoration: none;
+}
+
+.offersSection{
+    border: 3px solid #7a5a00;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.offersSection h3{
+    color: #7a5a00;
+    font-size: 30px;
+    
+}
+
+.offersSection p, ul{
+    font-size: 15px;
+    color: black;
+    text-align: left;
+}
+
+.offersSection img{
+    width: 80%;
+    height: 60%;
+    margin-left: 40px;
+}
+
+.tripSecondThree{
+    position: relative;
+    width: 100%;
+    height: 500px;
+}
+
+.tripSecondThree img{
+    margin-top: 30px;
+    margin-left: 100px;
+    width: 800px;
+    height: 400px;
+    display: block;
+}
+
+.tripSecondThree div{
+    position: absolute;
+    top: 45%;
+    right: 5%;
+    transform: translateY(-50%);
+    background: rgba(7, 1, 1, 0.822);
+    color: white;
+    padding: 2rem;
+    max-width: 500px;
+    text-align: center;
+}
+
+.tripSecondThree h3, p, li{
+    text-align: left;
+}
+
+.tripSecondThree h3{
+    font-size: 30px;
+}
+
+.tripSecondThree div button{
+    width: 150px;
+    margin-right: 100px;
+    border: none;
+    background-color: #d8c9b8;
+    border-radius: 20px;
+}
+
+.tripSecondThree div ul li{
+    color: #fff;
 }

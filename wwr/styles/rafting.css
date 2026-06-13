@@ -120,12 +120,14 @@ section h2 {
     background-color: rgba(0, 0, 0, 0.5);
     color: white;
     padding: 16px;
+    height: 150px;
 }
 
 .hero img {
     display: block;
-    width: 100%;
-    height: auto;
+    width: 96%;
+    height: 500px;
+    margin-left: 30px;
 }
 
 
@@ -133,6 +135,7 @@ section h2 {
 .hero article img {
     float: right;
     width: 125px;
+    height: 150px;
 }
 
 h2 {
@@ -222,8 +225,9 @@ section .invitation {
 
 .homeBottom{
     position: relative;
-    width: 100%;
+    width: 95%;
     height: 500px;
+    margin-left: 30px;
     background-color:#d8c9b8 ;
 }
 

@@ -264,7 +264,7 @@ section .invitation {
     
 }
 
-.homeBottom a button{
+.homeBottom button{
     width: 80px;
     border: none;
     background-color: #d8c9b8;

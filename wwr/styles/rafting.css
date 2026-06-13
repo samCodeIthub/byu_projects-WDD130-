@@ -47,6 +47,7 @@ article {
     padding: 8px;
 }
 
+
 header{
     display: flex;
     justify-content: space-between;
@@ -159,7 +160,10 @@ footer p{
     gap: 10px;
 }
 
-
+.companyInfo p{
+    width: 200px;
+    color: black;
+}
 
 h2,p{
     text-align: center;
@@ -167,10 +171,13 @@ h2,p{
 }
 
 .employee {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 800px;
+    margin-left: 250px;
 }
+
 
 .employee .employeeInfo{
     width: 100%;
@@ -220,7 +227,10 @@ section img{
 section .invitation {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    gap: 20px;
+    gap: 10px;
+    
+    width: 900px;
+    margin-left: 200px;
 }
 
 .homeBottom{
@@ -323,6 +333,8 @@ section .invitation {
     font-size: 15px;
     color: black;
     text-align: left;
+    list-style-type: square;
+    margin-left: 30px;
 }
 
 .offersSection img{
